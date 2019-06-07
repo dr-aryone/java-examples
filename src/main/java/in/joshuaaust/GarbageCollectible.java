@@ -17,6 +17,7 @@ public class GarbageCollectible {
         GarbageCollectible collectible = new GarbageCollectible(1);
         GarbageCollectible collectible2 = new GarbageCollectible(2);
         collectible = collectible2; // The original reference to collectible is now eligible for collection
+        System.gc();
     }
 
 }

@@ -36,5 +36,9 @@ public class Main {
         // checked exceptions can be caught with a Throwable catch
         CatchAndThrow.catchWithThrowable();
 
+        // varargs
+        VarArgsExample.multiply(5, 5); // 25
+        VarArgsExample.multiply(2, 2, 2, 2, 2, 2); // 64
+
     }
 }
